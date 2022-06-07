@@ -1,7 +1,7 @@
 import './App.css';
 import {BrowserRouter as Router, Routes, Route, Link, Links } from 'react-router-dom';
 import Footer from './components/Footer.jsx'
-import Arrow from './components/Arrow';
+import Gigcard from './components/GigCard';
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
           <Route path="/eventList" element="{ <EventList /> }" />
         </Routes>
       </Router>
+      <Gigcard/>
       <Footer/>
       
 

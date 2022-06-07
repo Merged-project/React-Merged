@@ -1,0 +1,33 @@
+.container {
+position: relative;
+height: 130px;
+width: 130px;
+border-radius: 100%;
+}
+
+.container:hover {
+    background-color: black;
+    opacity: 90%;
+}
+
+.image {
+    width: 100%;
+height: 100%;
+}
+
+.artist {
+    color: white;
+    font-weight: bold;
+}
+
+.date {
+    color: white;
+}
+
+.info {
+    position: absolute;
+    z-index: 1;
+    top: 25px;
+    text-align: center;
+    width: 100%;
+}
