@@ -1,11 +1,12 @@
 import './App.css';
 import ComponentTest from './Components/ComponentTest';
+import Button from './components/Button.jsx'
 
 function App() {
   return (
     <div>
 
-      <p>This is App.js</p>
+      <Button></Button>
       <ComponentTest />
       
     </div>
