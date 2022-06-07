@@ -1,6 +1,7 @@
 import './App.css';
 import Button from './components/Button.jsx'
-import InputContainer from './components/InputContainer.jsx'
+import Form from './components/Form.jsx'
+
 
 
 
@@ -14,7 +15,12 @@ function App() {
   <div className='App'>
       <Button
         text='button'
-        manageClick = {manageClick} />
+        manageClick = {manageClick} 
+      />
+
+      <Form />
+
+      
       
     </div>
   );
