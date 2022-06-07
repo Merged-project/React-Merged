@@ -1,11 +1,10 @@
 import React from 'react';
-import './stylesheet/Button.css';
+import '../stylesheets/Button.css';
 
 function Button({ text, manageClick }){
     return(
         <button 
-            clasName="button" 
-            onClick={manageClick}>
+            className="button" onClick={manageClick}>
             {text}
         </button>
     );

@@ -1,13 +1,20 @@
 import './App.css';
-import ComponentTest from './Components/ComponentTest';
 import Button from './components/Button.jsx'
+import InputContainer from './components/InputContainer.jsx'
+
+
 
 function App() {
-  return (
-    <div>
 
-      <Button></Button>
-      <ComponentTest />
+  const manageClick = () =>{
+    console.log ('click');
+  } //aquí escribimosla lógica de la función que queremos que haga
+
+  return (
+  <div className='App'>
+      <Button
+        text='button'
+        manageClick = {manageClick} />
       
     </div>
   );
