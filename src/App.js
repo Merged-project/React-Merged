@@ -1,6 +1,7 @@
 import './App.css';
 import Button from './components/Button.jsx'
-import Form from './components/Form.jsx'
+import FormContainer from './components/FormContainer.jsx'
+
 
 
 
@@ -18,7 +19,7 @@ function App() {
         manageClick = {manageClick} 
       />
 
-      <Form />
+      <FormContainer />
 
       
       
