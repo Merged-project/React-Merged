@@ -2,6 +2,8 @@ import './App.css';
 import {BrowserRouter as Router, Routes, Route, Link, Links } from 'react-router-dom';
 import ArtistList from './components/ArtistList';
 import FestivalCard from './components/FestivalCard';
+import Footer from './components/Footer.jsx'
+import Gigcard from './components/GigCard';
 
 function App() {
   return (
@@ -19,6 +21,10 @@ function App() {
         </Routes>
 
       </Router>
+
+      <Footer/>
+      
+
     </div>
   );
 }
