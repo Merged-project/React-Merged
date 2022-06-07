@@ -1,6 +1,10 @@
 import './App.css';
 import {BrowserRouter as Router, Routes, Route, Link, Links } from 'react-router-dom';
-import ComponentTest from './Components/ComponentTest';
+import ComponentTest from './components/ComponentTest';
+import Button from './components/Button.jsx'
+import Footer from './components/Footer.jsx'
+
+
 
 function App() {
   return (
@@ -16,6 +20,7 @@ function App() {
           <Route path="/eventList" element="{ <EventList /> }" />
         </Routes>
       </Router>
+      <Footer/>
       
     </div>
   );
