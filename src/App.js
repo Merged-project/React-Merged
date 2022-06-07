@@ -1,6 +1,7 @@
 import './App.css';
 import {BrowserRouter as Router, Routes, Route, Link, Links } from 'react-router-dom';
 import Footer from './components/Footer.jsx'
+import Arrow from './components/Arrow';
 
 function App() {
   return (
