@@ -4,7 +4,9 @@ import ArtistList from './components/ArtistList';
 import FestivalCard from './components/FestivalCard';
 import Footer from './components/Footer.jsx'
 import Gigcard from './components/GigCard';
-import Home from './views/Home';
+import Button from './components/Button';
+import FormContainer from './components/FormContainer';
+import Home from './views/home';
 
 function App() {
   return (
