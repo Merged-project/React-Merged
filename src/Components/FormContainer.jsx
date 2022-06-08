@@ -22,7 +22,7 @@ function FormContainer(){
                         placeholder = 'email'
                     /> 
             </div>
-            <Button type = 'submit' text='Login' />
+            <Button type = 'submit' text='LOGIN' />
         </form>
     
     );

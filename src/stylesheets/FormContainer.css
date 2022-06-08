@@ -36,15 +36,18 @@ button{
   justify-content: center;
   align-items: center;
   margin: auto;
+  background-color: #F8B1C8;
+  border-color: #F8B1C8;
 }
 
 
 button:hover {
-    background-color: #F8B1C8;
+    background-color: #646C9B;
+    border-color: #646C9B;
 }
 
 .boton-clic {
-    background-color: #F8B1C8;
+    background-color: #646C9B;
 }
 
 div{
