@@ -1,6 +1,7 @@
 import './App.css';
-import Button from './components/Button.jsx'
-import FormContainer from './components/FormContainer.jsx'
+import Button from './components/Button.jsx';
+import FormContainer from './components/FormContainer.jsx';
+
 
 
 
@@ -21,8 +22,6 @@ function App() {
 
       <FormContainer />
 
-      
-      
     </div>
   );
 }

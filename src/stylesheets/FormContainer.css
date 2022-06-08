@@ -6,24 +6,41 @@ form {
     box-sizing: border-box;
     margin: auto;
     border-radius: 39px;
+    color: #ffff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 input{
     border-radius: 39px;
     border: none;
     background: #ffff;
-    color: #2B3458;
     font-size: 16px;
     padding: 10px;
     width: 80%;
     margin-bottom: 10px;
+
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    
+
 }
+
+button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
 
 button:hover {
     background-color: #F8B1C8;
-  }
-  
-  .boton-clic {
+}
+
+.boton-clic {
     background-color: #F8B1C8;
-  }
-  
+}

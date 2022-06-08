@@ -17,6 +17,7 @@ button {
   
   button:hover {
     background-color: #F8B1C8;
+    border: 2px solid #F8B1C8;
   }
   
   .boton-clic {
