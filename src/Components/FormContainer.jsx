@@ -1,6 +1,7 @@
 import React from 'react';
 import '../stylesheets/FormContainer.css';
 import { Formik, Form } from 'formik';
+import Button from '../components/Button.jsx';
 
 function FormContainer(){
     return(
@@ -39,7 +40,7 @@ function FormContainer(){
                             onBlur = {handleBlur}
                         /> 
                     </div>
-                    <button type = 'submit'>Login</button>
+                    <Button type = 'submit' text='Login' />
                 </Form>
             )}
         </Formik>

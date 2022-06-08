@@ -2,9 +2,9 @@ button {
     width: 120px;
     height: 40px;
     font-size: 20px;
-    font-family: 'Inter', sans-serif;
+    /* font-family: 'Inter', sans-serif; */
     font-weight: bold;
-    border: 2px solid white;
+    border: 2px solid #646C9B;
     border-radius: 40px;
     margin: 5px;
     cursor: pointer;
