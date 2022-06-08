@@ -10,7 +10,8 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 60%;
+    padding-top: 1.2rem;
+    
     
 }
 
@@ -54,4 +55,10 @@ div{
     display: flex;
     justify-content: center;
 
+}
+
+.image{
+    width: 50%;
+    height: 100%;
+    
 }

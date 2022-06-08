@@ -23,7 +23,8 @@ function App() {
         </Routes>
 
       </Router>
-      <Footer/>
+      <FormContainer/>
+      {/* <Footer/> */}
       
 
     </div>
