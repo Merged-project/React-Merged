@@ -4,6 +4,8 @@ import ArtistList from './components/ArtistList';
 import FestivalCard from './components/FestivalCard';
 import Footer from './components/Footer.jsx'
 import Gigcard from './components/GigCard';
+import Button from './components/Button';
+import FormContainer from './components/FormContainer';
 
 function App() {
   return (
@@ -21,7 +23,6 @@ function App() {
         </Routes>
 
       </Router>
-
       <Footer/>
       
 

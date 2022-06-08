@@ -1,0 +1,22 @@
+button {
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    /* font-family: 'Inter', sans-serif; */
+    font-weight: bold;
+    border: 2px solid #646C9B;
+    border-radius: 40px;
+    margin: 5px;
+    cursor: pointer;
+    color: #FFFF;
+    background-color: #646C9B;
+}
+
+button:hover {
+    background-color: #F8B1C8;
+    border: 2px solid #F8B1C8;
+}
+
+.boton-clic {
+    background-color: #F8B1C8;
+}
