@@ -15,10 +15,10 @@ function App() {
 
   return (
   <div className='App'>
-      <Button
+      {/* <Button
         text='button'
         manageClick = {manageClick} 
-      />
+      /> */}
 
       <FormContainer />
 
