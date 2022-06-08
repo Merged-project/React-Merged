@@ -4,6 +4,7 @@ import ArtistList from './components/ArtistList';
 import FestivalCard from './components/FestivalCard';
 import Footer from './components/Footer.jsx'
 import Gigcard from './components/GigCard';
+import Home from './views/Home';
 
 function App() {
   return (
@@ -21,9 +22,6 @@ function App() {
         </Routes>
 
       </Router>
-
-      <Footer/>
-      
 
     </div>
   );
