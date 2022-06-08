@@ -3,10 +3,6 @@ import Button from './components/Button.jsx';
 import FormContainer from './components/FormContainer.jsx';
 
 
-
-
-
-
 function App() {
 
   const manageClick = () =>{
