@@ -8,6 +8,7 @@ import Gigcard from './components/GigCard';
 import Register from './views/Register';
 import Button from './components/Button';
 import FormContainer from './components/FormContainer';
+import Home from './views/home';
 
 function App() {
   return (
@@ -27,10 +28,6 @@ function App() {
         </Routes>
 
       </Router>
-
-    <Register/>
-      <Footer/>
-      
 
     </div>
   );
