@@ -17,3 +17,7 @@ body{
 form.form{
     margin-top: 2rem;
 }
+
+svg.arrow-icon{
+    margin-top: 4rem;
+}
