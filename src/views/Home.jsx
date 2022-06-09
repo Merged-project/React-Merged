@@ -4,30 +4,23 @@ import Gigcard from '../components/GigCard';
 
 const Home = () => {
 
-    const [festivals, setFestivals] = React.useState([]);
-    const [artists, setArtists] = useState();
+    const [festivals, setFestivals] = useState([]);
+    const [artists, setArtists] = useState([]);
 
-    React.useEffect(() => {
+    useEffect(() => {
         document.title = 'Home';
-        getData();
+        fetchData();
     }, []) // los [] impiden que se ejecute mas de una vez
 
-    const getData = async () => {
+    const fetchData = async () => {
         const data = await fetch('http://127.0.0.1:8000/api/festival')
+        const artistsData = await fetch('http://127.0.0.1:8000/api/artist')
+        const artists = await artistsData.json()
         const festivals = await data.json()
+        setArtists(artists)
         setFestivals(festivals)
         // console.log(festivals)
     }
-
-    const fetchArtists = async() => {
-        const artistsData = await fetch('http://127.0.0.1:8000/api/artist')
-        const artists = await artistsData.json()
-        setArtists(artists)
-    }
-
-    useEffect(() => {
-        fetchArtists();
-    },[])
 
     return (
         <div>
@@ -42,8 +35,8 @@ const Home = () => {
             <section className='artistSection'>
                 <h1>Artists</h1>
                 {
-                    artists.map(test => (
-                        <p key="test.id" artistsData={test}>{test.name}</p>
+                    artists.map(artist => (
+                        <Gigcard key="test.id" artistsData={artist}/>
                         ))
                 }
             </section>
