@@ -10,7 +10,10 @@ body{
     width: 50rem;
     height: 1.5rem;
     display: flex;
-    margin-top: 6rem;
+    margin-top: 4rem;
     padding-right: 17rem;
 
+}
+form.form{
+    margin-top: 2rem;
 }
