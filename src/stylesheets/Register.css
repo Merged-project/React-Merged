@@ -38,6 +38,9 @@ button{
     margin: auto;
     background-color: #F8B1C8;
     border-color: #F8B1C8;
+    padding-left:4rem;
+    padding-right:4rem;
+    font-size: 18px;
 }
 
 

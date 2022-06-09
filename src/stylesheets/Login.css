@@ -47,5 +47,18 @@ p{
     margin-top: 30px;
 }
 
+.button{
+    margin:auto;
+    margin-top: 30px;   
+    margin-bottom:0px;
+}
 
-
+form.login-form{
+    width: 313px;
+    height:406px;
+    margin: auto;
+    padding-top: 2rem;
+    box-sizing: border-box;
+    padding-bottom: 3rem;
+    margin-top: 2rem;
+}

@@ -5,7 +5,7 @@ import Button from '../components/Button.jsx';
 function FormContainer(){
 
     return(
-        <form className = 'form' >
+        <form className = 'login-form' >
             <div>
                 <img className="image" src={require('../img/picprofile.png')} alt="artist" />
             </div>
