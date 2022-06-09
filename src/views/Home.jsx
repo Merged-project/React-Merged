@@ -25,7 +25,6 @@ const Home = () => {
                     <FestivalCard key="festival.id" data={festival}/>
                     ))
             }
-
         </div>
     )
 }

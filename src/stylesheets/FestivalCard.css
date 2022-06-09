@@ -1,15 +1,14 @@
 .cardFestival{
     display: flex;
-    background-image: url('https://i0.wp.com/www.ruta66.es/wp-content/uploads/2020/05/festival-cruilla-2018-00.jpg?fit=650%2C350&ssl=1&w=640');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
     width: 123px;
     height: 228px;
     border-radius: 17px;
+    flex-direction: column;
     align-items: center;
     justify-content: flex-end;
-    flex-direction: column;
 }
 
 #favourite {
@@ -18,3 +17,8 @@
     position: relative;
     bottom: -10px;
 }   
+
+.infoFestival {
+    color: white;
+    flex-direction: column;
+}
