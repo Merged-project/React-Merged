@@ -18,7 +18,7 @@ function App() {
         <Link to= "/eventlist">Events List</Link> <br/>
 
         <Routes>
-          <Route exact path="/" element={ <Home/> } />
+          <Route path="/" element={ <Home /> } />
           <Route path="/calendar" element="{ <Calendar /> }" />
           <Route path="/eventList" element="{ <EventList /> }" />
         </Routes>
