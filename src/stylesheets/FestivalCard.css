@@ -1,3 +1,7 @@
+.festSection {
+    display: flex;
+}
+
 .cardFestival{
     display: flex;
     background-size: 100% 100%;
@@ -15,10 +19,16 @@
     height: 30px;
     width: 30px;
     position: relative;
-    bottom: -10px;
+    bottom: -20px;
 }   
 
 .infoFestival {
     color: white;
     flex-direction: column;
+    position: relative;
+    bottom: -20px;
+}
+
+.artistSection {
+    display: flex;
 }
