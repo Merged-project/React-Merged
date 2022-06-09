@@ -1,0 +1,48 @@
+body{
+    background: linear-gradient(180deg, #FDB3CA 0%, #5C6898 100%);
+    max-width: 390px;
+    max-height: 844px;
+    background-size: 390px 844px;
+}
+
+p{
+    color: #ffff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.login-container{
+    margin: auto;
+    margin-top: 40px;
+}
+
+.unregistered-text{
+    
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.register-here-text{
+    font-weight: 700;
+    font-size: 17px;
+    text-decoration-line: underline;
+    margin-top: 0;
+}
+
+.arrow-icon{
+    color: #ffff;
+    width: 50rem;
+    height: 1.5rem;
+    margin:0;
+    padding: 0;
+
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+}
+
