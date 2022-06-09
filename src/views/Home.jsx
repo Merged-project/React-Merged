@@ -1,11 +1,12 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import FestivalCard from '../components/FestivalCard';
+import GigCard from '../components/GigCard';
 
 const Home = () => {
 
-    const [festivals, setFestivals] = React.useState([]);
+    const [festivals, setFestivals] = useState([]);
 
-    React.useEffect(() => {
+    useEffect(() => {
         document.title = 'React Project';
         getData();
     }, []) // los [] impiden que se ejecute mas de una vez
@@ -17,6 +18,7 @@ const Home = () => {
         // console.log(festivals)
     }
 
+    
     return (
         <div>
             <h1>Festivals</h1>

@@ -8,7 +8,7 @@ import Gigcard from './components/GigCard';
 import Register from './views/Register';
 import Button from './components/Button';
 import FormContainer from './components/FormContainer';
-import Home from './views/home';
+import Home from './views/Home';
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
         <Link to= "/register">Register</Link>
 
         <Routes>
-          <Route path="/" element="{ <ComponentTest /> }" />
+          <Route path="/" element={ <Home /> } />
           <Route path="/calendar" element="{ <Calendar /> }" />
           <Route path="/eventList" element="{ <EventList /> }" />
           <Route path="/register" element="{ <Register /> }" />
