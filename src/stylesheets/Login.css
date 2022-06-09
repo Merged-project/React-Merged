@@ -25,7 +25,7 @@ p{
 
 .register-here-text{
     font-weight: 700;
-    font-size: 17px;
+    font-size: 16px;
     text-decoration-line: underline;
     margin-top: 0;
 }
@@ -34,8 +34,9 @@ p{
     color: #ffff;
     width: 50rem;
     height: 1.5rem;
-    margin:0;
-    padding: 0;
+    display: flex;
+    margin-top: 8rem;
+    padding-right: 17rem;
 
 }
 
@@ -45,4 +46,6 @@ p{
     margin: auto;
     margin-top: 30px;
 }
+
+
 
