@@ -1,0 +1,38 @@
+import React from 'react';
+import '../stylesheets/FormContainer.css';
+import Button from '../components/Button.jsx';
+
+function FormContainer(){
+
+    return(
+        <form className = 'login-form' >
+            <div>
+                <img className="image" src={require('../img/picprofile.png')} alt="artist" />
+            </div>
+            <div>
+                    <input 
+                        type= 'text' 
+                        id='name' 
+                        name='name' 
+                        placeholder = 'username'
+                    />
+            </div>
+
+            <div>
+                    <input 
+                        type = 'email' 
+                        id='name' 
+                        name='name' 
+                        placeholder = 'email'
+                    /> 
+            </div>
+            <Button 
+            type = 'submit' 
+            text='LOGIN'/>
+        </form>
+    
+    );
+    
+}
+
+export default FormContainer;

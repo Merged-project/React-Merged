@@ -1,0 +1,63 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.artistList{
+    display:flex;
+    background-color: black;
+    width: 603px;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bandPic {
+    border-radius: 10px;
+    width: 62px;
+    height: 62px;
+    object-fit: cover;
+    align-self: center;
+    margin-left: 10px;
+}
+
+.artistInfo {
+    padding: 10px;
+    color: white;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.favArtist {
+    display: flex;
+    color: white;
+    padding: 20px;
+    height: 100%;
+    align-items: center;
+}
+
+.container {
+    display: flex;  
+}
+
+#scenario {
+    display: flex;
+    align-self: flex-end;
+    justify-self: flex-start;
+    padding: 20px;
+    margin-right: 20px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.datetime {
+    color: #ADA4A4;
+    font-weight: 400;
+}
+
+#artistName {
+    font-weight: 700;
+    font-size: 17px;
+}

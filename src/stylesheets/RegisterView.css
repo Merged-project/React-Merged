@@ -1,0 +1,23 @@
+body{
+    background: linear-gradient(180deg, #FDB3CA 0%, #5C6898 100%);
+    max-width: 390px;
+    max-height: 844px;
+    background-size: 390px 844px;
+}
+
+.arrow-icon{
+    color: #ffff;
+    width: 50rem;
+    height: 1.5rem;
+    display: flex;
+    margin-top: 4rem;
+    padding-right: 17rem;
+
+}
+form.form{
+    margin-top: 2rem;
+}
+
+svg.arrow-icon{
+    margin-top: 4rem;
+}
