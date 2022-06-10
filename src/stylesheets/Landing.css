@@ -1,0 +1,15 @@
+.landing-pic{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 390px; 
+    height: 844px;
+    
+    margin: 0;
+    padding: 0;
+
+}
+
+div.App{
+    margin: 0;
+    padding: 0;
+}
