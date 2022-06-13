@@ -1,0 +1,35 @@
+.landing-pic{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%; 
+    height: 100vh;
+    
+    margin: 0;
+    padding: 0;
+
+}
+
+div.App{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    margin: 0;
+    padding: 0;
+}
+
+div#root{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    margin: 0;
+    padding: 0;
+}
