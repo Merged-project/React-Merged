@@ -38,9 +38,15 @@ button.btn.btn-secondary{
 svg{
     width: 50px;
     height: 50px;
+    color: none;
 }
 
 .navbar-container{
     display: flex;
     justify-content: space-between;
+}
+
+button.btn.btn-secondary{
+    color: #fff;
+    background-color: transparent;
 }
