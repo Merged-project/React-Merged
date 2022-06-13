@@ -1,5 +1,6 @@
 body{
     background: linear-gradient(180deg, #FDB3CA 0%, #5C6898 100%);
+    height: 200rem;
 }
 
 p{
@@ -37,10 +38,6 @@ p{
     padding-right: 17rem;
 }
 
-div{
-    background: none;
-}
-
 .logo{
     display: flex;
     justify-content: center;
@@ -58,7 +55,7 @@ div{
 
 form.login-form{
     width: 313px;
-    height:406px;
+    height:426px;
     margin: auto;
     padding-top: 2rem;
     box-sizing: border-box;
