@@ -59,8 +59,8 @@ div{
 
 }
 
-.image{
-    width: 50%;
-    height: 100%;
-    
+.login-container .image.user-icon{
+    width: 8rem;
+    height: 8rem;
 }
+

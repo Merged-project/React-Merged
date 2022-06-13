@@ -6,8 +6,8 @@ function FormContainer(){
 
     return(
         <form className = 'login-form' >
-            <div>
-                <img className="image" src={require('../img/picprofile.png')} alt="artist" />
+            <div className = 'image-container'>
+                <img className="image user-icon" src={require('../img/picprofile.png')} alt="artist" />
             </div>
             <div>
                     <input 

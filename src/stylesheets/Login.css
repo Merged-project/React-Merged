@@ -68,7 +68,7 @@ form.login-form{
     margin-top: 2rem;
 }
 
-img.image{
+.login-container img.image{
     background: none;
     width: 20rem;
     height: 20rem;
@@ -77,4 +77,3 @@ img.image{
 input#name, input#email{
     margin:0.5rem;
 }
-
