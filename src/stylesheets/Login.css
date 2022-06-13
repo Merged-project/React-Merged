@@ -21,6 +21,7 @@ p{
     font-size: 14px;
     font-weight: 300;
     margin-bottom: 0;
+    margin-top: 2rem;
 }
 
 .register-here-text{
@@ -37,7 +38,10 @@ p{
     display: flex;
     margin-top: 8rem;
     padding-right: 17rem;
+}
 
+div{
+    background: none;
 }
 
 .logo{
@@ -50,7 +54,9 @@ p{
 .button{
     margin:auto;
     margin-top: 30px;   
-    margin-bottom:0px;
+    margin-bottom:0;
+    border-radius: 40px;
+    
 }
 
 form.login-form{
@@ -59,7 +65,16 @@ form.login-form{
     margin: auto;
     padding-top: 2rem;
     box-sizing: border-box;
-    padding-bottom: 3rem;
     margin-top: 2rem;
+}
+
+img.image{
+    background: none;
+    width: 20rem;
+    height: 20rem;
+}
+
+input#name, input#email{
+    margin:0.5rem;
 }
 
