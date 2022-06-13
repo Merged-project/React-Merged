@@ -4,9 +4,7 @@ import '../stylesheets/Home.css';
 
 function Home() {
     return (
-        <div>
-            <Navbar></Navbar>
-        </div>
+        <div></div>
     );
 }
 

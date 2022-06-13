@@ -7,7 +7,8 @@ div.navbar-container{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-direction: wrap;
+    margin: 25px;
+    align-items: center;
 }
 
 p{
@@ -37,4 +38,9 @@ button.btn.btn-secondary{
 svg{
     width: 50px;
     height: 50px;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
 }
