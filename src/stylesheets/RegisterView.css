@@ -1,8 +1,5 @@
 body{
     background: linear-gradient(180deg, #FDB3CA 0%, #5C6898 100%);
-    max-width: 390px;
-    max-height: 844px;
-    background-size: 390px 844px;
 }
 
 .arrow-icon{
@@ -20,4 +17,9 @@ form.form{
 
 svg.arrow-icon{
     margin-top: 4rem;
+}
+
+.login-container img.image{
+    width: 10rem;
+    height: 10rem;
 }

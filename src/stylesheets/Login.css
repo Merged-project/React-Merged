@@ -1,8 +1,5 @@
 body{
     background: linear-gradient(180deg, #FDB3CA 0%, #5C6898 100%);
-    max-width: 390px;
-    max-height: 844px;
-    background-size: 390px 844px;
 }
 
 p{
