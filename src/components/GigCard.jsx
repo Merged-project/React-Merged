@@ -1,5 +1,5 @@
 import React from "react";
-import '../stylesheets/GigCard.css';
+import '../stylesheets/Home.css';
 
 const Gigcard = () => {
     return (

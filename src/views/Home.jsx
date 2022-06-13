@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import FestivalCard from '../components/FestivalCard';
 import Gigcard from '../components/GigCard';
+import Footer from '../components/Footer';
 
 const Home = () => {
 
@@ -19,27 +20,27 @@ const Home = () => {
         const festivals = await data.json()
         setArtists(artists)
         setFestivals(festivals)
-        // console.log(festivals)
     }
 
     return (
-        <div>
+        <div className='HomeView'>
+
+            <h1 className='title'>Festivals</h1>
             <section className='festSection'>
-                <h1>Festivals</h1>
-                {
-                    festivals.map(festival =>(
-                        <FestivalCard key="festival.id" data={festival}/>
-                        ))
-                }
+                <div className='festCards'>
+                    {festivals.map(festival =>(<FestivalCard key="festival.id" data={festival}/>))}
+                </div>
+                <div className='festBackground'></div>
+                
             </section>
+
+            <h1 className='title'>Artists</h1>
             <section className='artistSection'>
-                <h1>Artists</h1>
-                {
-                    artists.map(artist => (
-                        <Gigcard key="test.id" artistsData={artist}/>
-                        ))
-                }
+
+                {artists.map(artist => (<Gigcard key="artist.id" artistsData={artist}/>))}
+
             </section>
+
         </div>
     )
 }

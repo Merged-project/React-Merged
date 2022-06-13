@@ -1,5 +1,5 @@
 import React from 'react';
-import "../stylesheets/FestivalCard.css";
+import "../stylesheets/Home.css";
 
 const FestivalCard = ({data}) => {
 
