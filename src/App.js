@@ -5,6 +5,7 @@ import Home from './views/Home';
 import Register from './views/RegisterView';
 import Landing from  './views/Landing';
 import React, { useEffect, useState } from 'react';
+import Navbar from './components/Navbar';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Landing
       loading = {loading}/> 
       : <Home/>}
+      <Navbar></Navbar>
       <BrowserRouter>
         <header > 
           <Link to='/' ></Link>
@@ -49,3 +51,4 @@ function App() {
 }
 
 export default App;
+
