@@ -3,12 +3,8 @@ import '../stylesheets/FormContainer.css';
 import Button from '../components/Button.jsx';
 
 function FormContainer(){
-
     return(
-        <form className = 'login-form' >
-            <div className = 'image-container'>
-                <img className="image user-icon" src={require('../img/picprofile.png')} alt="artist" />
-            </div>
+        <form className = 'form' >
             <div>
                     <input 
                         type= 'text' 
@@ -26,9 +22,7 @@ function FormContainer(){
                         placeholder = 'email'
                     /> 
             </div>
-            <Button 
-            type = 'submit' 
-            text='LOGIN'/>
+            <Button type = 'submit' text='LOGIN' />
         </form>
     
     );
@@ -36,3 +30,4 @@ function FormContainer(){
 }
 
 export default FormContainer;
+
