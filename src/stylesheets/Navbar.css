@@ -1,14 +1,18 @@
 .navbar-container img.image{
     width: 50px;
     height: 50px;
+    
 }
 
 div.navbar-container{
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    margin: 25px;
+    margin: auto;
     align-items: center;
+    padding: 30px;
+    text-align: left;
+    width: 1640px;
+    
 }
 
 p{
@@ -50,3 +54,4 @@ button.btn.btn-secondary{
     color: #fff;
     background-color: transparent;
 }
+
