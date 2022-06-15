@@ -9,13 +9,29 @@ import FormContainer from './components/FormContainer';
 import Home from './views/Home';
 
 function App() {
+    const [loading, setLoading] = useState(false);
+
+    useEffect(() => {
+      setLoading(true)
+      setTimeout(()=> {
+        setLoading(false)
+      },1000)
+    },[])
+
   return (
     <div className="App">
-      <Router>
-
-        <Link to= "/">Home</Link> <br/>
-        <Link to= "/calendar">Calendar</Link> <br/>
-        <Link to= "/eventlist">Events List</Link> <br/>
+      {loading ? 
+      <Landing
+      loading = {loading}/> 
+      : <Home/>}
+      <Navbar></Navbar>
+      <BrowserRouter>
+        <header > 
+          <Link to='/' ></Link>
+          <Link to='/login'></Link>
+          <Link to='/register'></Link>
+          <Link to='/landing'></Link>
+        </header>
 
         <Routes>
           <Route path="/" element={ <Home /> } />
@@ -27,7 +43,9 @@ function App() {
 
     
     </div>
+    
   );
 }
 
 export default App;
+
