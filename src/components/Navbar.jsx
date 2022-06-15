@@ -21,9 +21,11 @@ function Navbar(){
                 </DropdownToggle >
 
                 <DropdownMenu>
-                    <DropdownItem>hola</DropdownItem>
-                    <DropdownItem>buenas</DropdownItem>
-                    <DropdownItem>wapo</DropdownItem>
+                    <DropdownItem> Festivals </DropdownItem>
+                    <DropdownItem> Concerts </DropdownItem>
+                    <DropdownItem> Arists </DropdownItem>
+                    <DropdownItem> My Profile </DropdownItem>
+                    <DropdownItem> Next Events </DropdownItem>
                 </DropdownMenu>
 
             </Dropdown>
