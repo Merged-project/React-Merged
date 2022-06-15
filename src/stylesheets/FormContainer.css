@@ -1,9 +1,4 @@
-<<<<<<< HEAD
 login-form {
-=======
-
-form {
->>>>>>> bcc8c3bb469dbd6869c1407ad87ecdd23250d7f0
     background: #2B3458;
     width:313px;
     height:406px;
@@ -15,12 +10,8 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: center;
-<<<<<<< HEAD
     padding-top: 1.2rem;
     
-=======
-    padding-top: 60%;
->>>>>>> bcc8c3bb469dbd6869c1407ad87ecdd23250d7f0
     
 }
 
@@ -41,7 +32,6 @@ input{
 }
 
 button{
-<<<<<<< HEAD
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,14 +40,6 @@ button{
     border-color: #F8B1C8;
     font-size: 18px;
     
-=======
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  background-color: #F8B1C8;
-  border-color: #F8B1C8;
->>>>>>> bcc8c3bb469dbd6869c1407ad87ecdd23250d7f0
 }
 
 
@@ -77,11 +59,8 @@ div{
 
 }
 
-<<<<<<< HEAD
 .login-container .image.user-icon{
     width: 8rem;
     height: 8rem;
 }
 
-=======
->>>>>>> bcc8c3bb469dbd6869c1407ad87ecdd23250d7f0
