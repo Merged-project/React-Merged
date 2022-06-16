@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import FestivalCard from '../components/FestivalCard';
 import Gigcard from '../components/GigCard';
-import Footer from '../components/Footer';
 
 const Home = () => {
 
